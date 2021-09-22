@@ -1,0 +1,14 @@
+[package]
+name = "fen_from_editor"
+version = "0.1.0"
+authors = ["Marco Herrera-Rendon <mherrerarendon@gmail.com>"]
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "0.2.62"
+serde_json = "1.0"
+serde = { version = "1.0.130", features = ["derive"] }
+lazy_static = "1.4.0"
